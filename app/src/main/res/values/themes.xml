@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Meteo" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#C3C2C0</item>
+        <item name="colorPrimaryVariant">#C3C2C0</item>
+        <item name="colorOnPrimary">#C3C2C0</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="text1">
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+    </style>
+</resources>
